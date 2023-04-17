@@ -1,0 +1,9 @@
+com\ti\page\UserDatePage.class
+com\ti\testcase\LoginTest.class
+com\ti\library\TestLibrary.class
+com\ti\testcase\BaseTest.class
+com\ti\testcase\AddressDataTest.class
+com\ti\page\RegisterPage.class
+com\ti\page\MainPage.class
+com\ti\page\LoginPage.class
+com\ti\testcase\RegisterTest.class

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NavigationSuite" >
+    <listeners>
+        <listener class-name="org.example.framework.util.liseners.TestListener"/>
+        <listener class-name="org.example.framework.util.liseners.AnnotationTransform"/>
+    </listeners>
+    <test name="Game Test">
+        <parameter name="browser" value="EDGE"/>
+
+        <classes>
+            <class name="com.ti.test.RegisterTest"></class
+            <class name="com.ti.test.LoginTest"></class>
+            <class name="com.ti.test.AddressDataTest"></class>
+            <class name="com.ti.test.BayProducTest"></class>
+            <class name="com.ti.test.FollowOderTest"></class>
+        </classes>
+    </test>
+</suite>
